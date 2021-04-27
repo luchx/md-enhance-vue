@@ -1,0 +1,19 @@
+{
+  "name": "markdown-vue",
+  "private": true,
+  "version": "1.0.0",
+  "description": "一个支持在 markdown 中写 Vue 的 webpack loader~",
+  "main": "index.js",
+  "repository": "git@github.com:luchx/markdown-vue.git",
+  "author": "luchx <luchx1993@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "markdown-it-anchor": "^7.1.0",
+    "markdown-it-chain": "^1.3.0",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-table-of-contents": "^0.5.2",
+    "prismjs": "^1.23.0",
+    "transliteration": "^2.2.0"
+  }
+}
