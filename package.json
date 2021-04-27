@@ -1,9 +1,9 @@
 {
-  "name": "md-loader-vue",
+  "name": "md-enhance-vue",
   "version": "1.0.0",
   "description": "一个支持在 markdown 中写 Vue 的 webpack loader~",
   "main": "lib/index.js",
-  "repository": "git@github.com:luchx/md-loader-vue.git",
+  "repository": "git@github.com:luchx/md-enhance-vue.git",
   "author": "luchx <luchx1993@gmail.com>",
   "license": "MIT",
   "dependencies": {
