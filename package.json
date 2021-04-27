@@ -1,14 +1,14 @@
 {
-  "name": "markdown-vue",
-  "private": true,
+  "name": "md-loader-vue",
   "version": "1.0.0",
   "description": "一个支持在 markdown 中写 Vue 的 webpack loader~",
-  "main": "index.js",
-  "repository": "git@github.com:luchx/markdown-vue.git",
+  "main": "lib/index.js",
+  "repository": "git@github.com:luchx/md-loader-vue.git",
   "author": "luchx <luchx1993@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^4.1.1",
+    "markdown-it": "^12.0.6",
     "markdown-it-anchor": "^7.1.0",
     "markdown-it-chain": "^1.3.0",
     "markdown-it-container": "^3.0.0",
