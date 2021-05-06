@@ -137,4 +137,26 @@ export default {
 
 ## 完整示例
 
-见 <https://github.com/luchx/ECHI_UI>
+> 需要注意的是文档挂载在全局组件 `demo-block` 下，所以你需要创建并使用组件 `demo-block`，另外还需要引入 `markdown` 支持的样式文件。
+
+```vue
+<template>
+  <div class="demo-block">
+    <slot name="source"></slot>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "DemoBlock",
+};
+</script>
+```
+
+```js
+// main.js
+import DemoBlock from "./components/demo-block";
+Vue.component("demo-block", DemoBlock);
+```
+
+更多使用可参考 <https://github.com/luchx/ECHI_UI>
