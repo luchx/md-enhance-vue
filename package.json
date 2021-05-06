@@ -20,7 +20,6 @@
     "markdown-it-container": "^3.0.0",
     "markdown-it-table-of-contents": "^0.5.2",
     "prismjs": "^1.23.0",
-    "shelljs": "^0.8.4",
     "transliteration": "^2.2.0"
   },
   "devDependencies": {

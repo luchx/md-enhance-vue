@@ -7,7 +7,41 @@
 ```vue
 <template>
   <div>
-    测试 md 内置组件 -- <span class="text" v-text="msg"></span>
+    测试 md 内置组件1
+  </div>
+</template>
+<script>
+export default {
+
+};
+</script>
+```
+
+:::
+
+:::demo
+
+```vue
+<template>
+  <div>
+    测试 md 内置组件2
+  </div>
+</template>
+<script>
+export default {
+
+};
+</script>
+```
+
+:::
+
+:::demo
+
+```vue
+<template>
+  <div>
+    测试 md 内置组件 --- <span class="text">{{ data.msg }}</span>
   </div>
 </template>
 
@@ -18,7 +52,7 @@ console.log("data ======> ", data)
 export default {
   data() {
     return {
-      msg: "Hello World !!!",
+      data
     };
   },
 };

@@ -135,3 +135,6 @@ export default {
 :::
 ````
 
+## 完整示例
+
+见 <https://github.com/luchx/ECHI_UI>
