@@ -160,3 +160,7 @@ Vue.component("demo-block", DemoBlock);
 ```
 
 更多使用可参考 <https://github.com/luchx/ECHI_UI>
+
+## 原理
+
+请参考文章 [✨ 在 Markdown 中 使用 Vue](https://www.yuque.com/luchx/ziwg5m/df00sl)
