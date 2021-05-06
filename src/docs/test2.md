@@ -12,6 +12,9 @@
 </template>
 
 <script>
+import data from "./data.json";
+console.log("data ======> ", data)
+
 export default {
   data() {
     return {

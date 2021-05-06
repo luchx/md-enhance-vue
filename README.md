@@ -86,7 +86,6 @@ module.exports = {
 
 ```js
 {
-  cacheDir: ".", // 定义 md 文件转换后的 vue 组件缓存目录，默认在同级目录下。
   lineNumbers: true, // 是否启用行号，默认启用
   // markdown-it-table-of-contents options see: https://github.com/martinlissmyr/markdown-it-table-of-contents
   toc: {},

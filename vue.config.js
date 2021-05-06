@@ -23,7 +23,6 @@ module.exports = {
       .use(resolve("./lib/index.js"))
       .loader(resolve("./lib/index.js"))
       .options({
-        cacheDir: resolve("node_modules"),
         // lineNumbers: false,
         // toc: {},
         // anchor: {
