@@ -2,6 +2,14 @@
 
 一个支持在 markdown 中写 Vue 的 webpack loader~
 
+支持特性 ✨✨✨：
+
+1. 支持 .md 文件渲染
+2. 支持在 markdown 中 Vue 模板渲染
+3. 支持在 Vue 模板中使用 import
+4. 支持代码高亮（使用 prismjs）
+5. 支持传递 vue-loader 的所有特性（需要项目配置支持）
+
 ## 安装
 
 ```bash
