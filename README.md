@@ -111,29 +111,86 @@ module.exports = {
 > 使用时需要将 vue 模板写在以 `:::demo 开头，::: 结束` 的标签中，能识别以 `vue、html` 包裹的代码块。支持配置的所有以 `.vue` 单文件支持的写法
 
 ````markdown
-# 测试标题
+# 支持标题
 
 我是一段文字
 
 :::demo
 
 ```vue
-<template>
-  <div>
-    测试 md 内置组件 -- <span class="text">{{ msg }}</span>
-  </div>
-</template>
+<script>
+export default {
+  template: `<div>
+    支持内联组件（需要配合 Vue 的 runtimeCompiler 模式）
+  </div>`,
+};
+</script>
+```
+
+:::
+
+:::demo
+
+```vue
+<script>
+export default {
+  render() {
+    return <div>支持 render 函数</div>;
+  },
+};
+</script>
+```
+
+:::
+
+:::demo
+
+```vue
+<div>
+  支持无 template 包裹
+</div>
+<script>
+export default {};
+</script>
+```
+
+:::
+
+:::demo
+
+```vue
+<div>
+  支持多根元素1
+</div>
+<div>
+  支持多根元素2
+</div>
 
 <script>
+export default {};
+</script>
+```
+
+:::
+
+:::demo
+
+```vue
+<span class="text">{{ data.msg }}</span>
+
+<script>
+import data from "./data.json";
+console.log("data ======> ", data);
+
 export default {
   data() {
     return {
-      msg: "Hello World !!!",
+      data,
     };
   },
 };
 </script>
-<style scoped>
+<style>
 .text {
   color: #f00;
 }
@@ -141,6 +198,30 @@ export default {
 ```
 
 :::
+
+:::demo
+
+```vue
+<template>
+  <div>
+    <span class="text">支持 scss 样式</span>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+<style lang="scss">
+div {
+  .text {
+    color: #f00;
+  }
+}
+</style>
+```
+
+:::
+
 ````
 
 ## 完整示例
