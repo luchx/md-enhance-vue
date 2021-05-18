@@ -23,6 +23,7 @@ module.exports = {
       .use(resolve("./lib/index.js"))
       .loader(resolve("./lib/index.js"))
       .options({
+        cssLang: "scss",
         // lineNumbers: false,
         // toc: {},
         // anchor: {
